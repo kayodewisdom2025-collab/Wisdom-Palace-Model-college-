@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Palace Model College</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation Sidebar */
+        .sidebar {
+            width: 200px;
+            background-color: #4b0082; /* Deep purple sidebar */
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 30px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            padding: 10px 20px;
+            transition: background 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #6a0dad;
+        }
+
+        /* Main Content */
+        main {
+            margin-left: 220px;
+            padding: 50px 30px;
+        }
+
+        .welcome-section {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .welcome-section h1 {
+            font-size: 2.5rem;
+            color: #4b0082;
+            margin-bottom: 20px;
+        }
+
+        .welcome-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .register-button {
+            display: inline-block;
+            background-color: #4b0082;
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .register-button:hover {
+            background-color: #6a0dad;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #3a0066;
+            color: #ecf0f1;
+            padding: 20px 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            main {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="fees.html">Fees</a></li>
+            <li><a href="registration.html">Registration Portal</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Welcome Section -->
+    <main>
+        <section class="welcome-section">
+            <h1>Welcome to Wisdom Palace Model College</h1>
+            <p>
+                Where wisdom is the principal thing. We train children to be excellent in speech, to excel in academics, 
+                to know Christ, and to grow in wisdom and character. Led by our principal, Mr. Akinkayode Akinjagunla.
+            </p>
+            <a href="registration.html" class="register-button">Register Now</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Wisdom Palace Model College. All rights reserved. <br>
+        Email: <a href="mailto:integral.akins@gmail.com">integral.akins@gmail.com</a> | Contact: 081-3245-3237
+    </footer>
+</body>
+</html>
